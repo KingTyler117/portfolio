@@ -10,18 +10,23 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" 
+		rel="stylesheet">
+		<script src="assets/js/time.js" imageOne="images/sand.jpg" imageTwo="image/forset.jpg"
+		imageThree="image/winter.jpg" type="JavaScript"></script>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="changeImage()"> 
 
 		<!-- Header -->
 			<div id="header">
 
-				<div class="top">
+				<div class="inner">
+
+					<a href="#" class="image avatar"
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<a href="#" class="image featured"><img src="images/king_n.jpg" atl="Me"/></a>
 							<h1 id="title">Tyler King</h1>
 							<p>Software Developer</p>
 						</div>
@@ -42,10 +47,11 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							
+							<li><a href="https://www.facebook.com/tyler.king.5074/about" class="icon Facebook" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/KingTyler117" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+							li><a href="tyman.king97@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+
 						</ul>
 
 				</div>
@@ -56,7 +62,9 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
+				
+					<section   id="top" class="one dark cover"> 
+						<img id="snow" src="images/winter.jpg" 	atl="sand"/> 
 						<div class="container">
 
 							<header>
@@ -88,13 +96,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
-											<h3> Sample work 1</h3>
+											<h3>Pirate-adventure</h3>
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a> <a href="https://github.com/KingTyler117/pirate-adventure" ></a>
 										<header>
-											<h3> Sample work 2</h3>
+											<h3> Salmon Cookies</h3>
 										</header>
 									</article>
 								</div>
@@ -138,8 +146,6 @@
 							<header>
 								<h2>About Me</h2>
 							</header>
-
-							<a href="#" class="image featured"><img src="images/king_n.jpg" atl="Me"/></a>
 
 							<p> I was born and raised up in Lynnwood, WA. I graduated community college in 2020 with a AAA degree. From there, I went to go on and study at Code Fellows, where I am a certified stacked developer in HTML, CSS, JavaScript and Python. I have gone and to work for many projects for some major companies. In my free time, I like to watch movies and sports, hike, road trips, traveling and coffee drinking. </p>
 
@@ -185,6 +191,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/time.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
