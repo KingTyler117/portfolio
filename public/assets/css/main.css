@@ -222,6 +222,10 @@ input, select, textarea {
 
 			.container {
 				width: 1200px;
+			
+			}
+			#nav {
+				margin-top: 200px;
 			}
 
 		}

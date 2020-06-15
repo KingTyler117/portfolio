@@ -1,8 +1,8 @@
 "use strict"
 
-const imageOne="images/winter.jpg"
-const imageTwo="images/forset.jpg"
-const imageThree="images/sand.jpg"
+const imageOne="public/images/winter.jpg"
+const imageTwo="public/images/forset.jpg"
+const imageThree="public/images/sand.jpg"
 // const imageOne = "../../images/winter.jpg";
 
 
@@ -26,7 +26,7 @@ function changeImage()
 
     console.log(img)
     fadeImg(img, 100, true);
-    setTimeout("changeImage()", 30000);
+    setTimeout("changeImage()", 10000);
 }
 
 function fadeImg(el, val, fade){
@@ -45,4 +45,4 @@ function fadeImg(el, val, fade){
 
 
 
-setTimeout(changeImage, 30000);
+setTimeout(changeImage, 10000);
